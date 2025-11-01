@@ -67,4 +67,17 @@ body { background:var(--bg); color:var(--text); }
   .hero { flex-direction:column; }
   .navbar { flex-wrap:wrap; gap:1rem; }
   .media .video iframe { max-width:100%; }
+  .hero-with-video .video-wrapper {
+  max-width: 420px;
+  width: 100%;
+}
+
+.hero-with-video .video-wrapper video {
+  width: 100%;
+  border-radius: 1.4rem;
+  box-shadow: 0 14px 35px rgba(0,0,0,.08);
+  background: #000;
+  display: block;
+}
+
 }
